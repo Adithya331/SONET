@@ -1,3 +1,4 @@
+
 body{
     padding:20vh;
 }
@@ -7,7 +8,7 @@ body{
     width:250px;
     height:auto;
     margin:auto;
-    padding:20px 30px;
+    padding:20px 25px;
     border-radius: 5px;
     background-color: rgb(217, 230, 217);
     box-shadow: 5px 10px 10px 5px rgb(32, 28, 28);
@@ -20,12 +21,20 @@ body{
     width:200px;
     text-align: center;
     height: 25px;
+    border-radius: 2px;
+    border:none;
+    
 }
 .box small[type="fp"]{
     color:rgba(90, 79, 79, 0.596);
     padding-left: 115px;
+ 
 }
-.box input[type="submit"]{
+
+.box button{
     background-color:rgb(250, 69, 14);
     color:white;
+    width:200px;
+    height:30px;
+    border:none;
 }
